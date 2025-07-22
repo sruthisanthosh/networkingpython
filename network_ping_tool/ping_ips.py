@@ -1,6 +1,5 @@
 
-
-with open('/Users/sruthisanthosh/Documents/networkingpython/networkingpython/network_ping_tool/ip_list.txt') as file:
+with open('network_ping_tool/ip_list.txt') as file:
     ip_list= [ line.strip() for line in file ];
 
 print(ip_list);
