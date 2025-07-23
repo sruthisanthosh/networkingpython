@@ -5,14 +5,16 @@ with open('network_ping_tool/ip_list.txt') as file:
 
 print(ip_list);
 
-for ip in ip_list:
- result = subprocess.run(['ping','-c','3',ip]);
- print("--------------");
- print(result);
- if result.returncode == 0:
-    print("Ping success!!");
-else:
-   print("Ping unsuccessful!!!") 
+with open('network_ping_tool/ping_log','w') as log:
+    for ip in ip_list:
+        result = subprocess.run(['ping','-c','3',ip]);
+        print("--------------");
+        print(result);
+        if result.returncode == 0:
+            print("Ping success!!");
+        else:
+            print("Ping unsuccessful!!!") 
+        log.write(f"{ip} has status {result.returncode} \n");
 
 
 #Output:
