@@ -12,7 +12,7 @@ for ip in ip_list:
  if result.returncode == 0:
     print("Ping success!!");
 else:
-   print("Ping unsuccessful!!!")
+   print("Ping unsuccessful!!!") 
 
 
 #Output:
