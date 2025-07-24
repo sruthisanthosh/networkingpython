@@ -9,7 +9,7 @@ password=config.password;
 client = paramiko.SSHClient();
 client.load_system_host_keys();
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy());
-with open('monitor_device_logs.txt','w') as log:
+with open('ssh_monitor/monitor_device_logs.txt','w') as log:
     try:
         client.connect(ip,22,user,password);
 
