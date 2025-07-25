@@ -1,0 +1,52 @@
+2025-07-25 15:43:27.415406 --------------------------------------------------
+2025-07-25 15:43:27.415406 Router-A ---- IP: 127.0.0.1
+2025-07-25 15:43:27.425961 CMD: uptime
+2025-07-25 15:43:27.425961 STDOUT:15:43  up  5:17, 1 user, load averages: 1.69 1.62 1.63
+
+2025-07-25 15:43:27.425961 STDERR:
+2025-07-25 15:43:27.437349 CMD: ls -l
+2025-07-25 15:43:27.437349 STDOUT:total 632
+drwx------@  4 sruthisanthosh  staff     128 Jul 23 00:12 Applications
+drwx------@  5 sruthisanthosh  staff     160 Jul 24 17:35 Desktop
+drwx------+ 14 sruthisanthosh  staff     448 Jul 23 00:26 Documents
+drwx------+ 85 sruthisanthosh  staff    2720 Jul 23 00:12 Downloads
+drwx------@ 95 sruthisanthosh  staff    3040 Jul 24 16:13 Library
+drwx------   3 sruthisanthosh  staff      96 Apr 26 07:24 Movies
+drwx------+  6 sruthisanthosh  staff     192 May 24 21:52 Music
+drwx------+  5 sruthisanthosh  staff     160 Apr 26 07:28 Pictures
+drwxr-xr-x+  4 sruthisanthosh  staff     128 Apr 26 07:24 Public
+drwxr-xr-x   3 sruthisanthosh  staff      96 Apr 26 07:47 RRIT
+-rw-r--r--   1 sruthisanthosh  staff     118 Jul  1 20:45 code1.py
+-rw-r--r--@  1 sruthisanthosh  staff  316805 Apr 30 19:53 photo.jpg
+
+2025-07-25 15:43:27.437349 STDERR:
+2025-07-25 15:43:27.447870 CMD: date
+2025-07-25 15:43:27.447870 STDOUT:Fri Jul 25 15:43:27 AEST 2025
+
+2025-07-25 15:43:27.447870 STDERR:
+2025-07-25 15:43:27.894099 --------------------------------------------------
+2025-07-25 15:43:27.894099 Switch-B ---- IP: 127.0.0.1
+2025-07-25 15:43:27.902388 CMD: uptime
+2025-07-25 15:43:27.902388 STDOUT:15:43  up  5:17, 1 user, load averages: 1.69 1.62 1.63
+
+2025-07-25 15:43:27.902388 STDERR:
+2025-07-25 15:43:27.912168 CMD: ls -l
+2025-07-25 15:43:27.912168 STDOUT:total 632
+drwx------@  4 sruthisanthosh  staff     128 Jul 23 00:12 Applications
+drwx------@  5 sruthisanthosh  staff     160 Jul 24 17:35 Desktop
+drwx------+ 14 sruthisanthosh  staff     448 Jul 23 00:26 Documents
+drwx------+ 85 sruthisanthosh  staff    2720 Jul 23 00:12 Downloads
+drwx------@ 95 sruthisanthosh  staff    3040 Jul 24 16:13 Library
+drwx------   3 sruthisanthosh  staff      96 Apr 26 07:24 Movies
+drwx------+  6 sruthisanthosh  staff     192 May 24 21:52 Music
+drwx------+  5 sruthisanthosh  staff     160 Apr 26 07:28 Pictures
+drwxr-xr-x+  4 sruthisanthosh  staff     128 Apr 26 07:24 Public
+drwxr-xr-x   3 sruthisanthosh  staff      96 Apr 26 07:47 RRIT
+-rw-r--r--   1 sruthisanthosh  staff     118 Jul  1 20:45 code1.py
+-rw-r--r--@  1 sruthisanthosh  staff  316805 Apr 30 19:53 photo.jpg
+
+2025-07-25 15:43:27.912168 STDERR:
+2025-07-25 15:43:27.921936 CMD: date
+2025-07-25 15:43:27.921936 STDOUT:Fri Jul 25 15:43:27 AEST 2025
+
+2025-07-25 15:43:27.921936 STDERR:

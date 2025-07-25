@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Router-A",
+    "ip": "<your_ip>",
+    "username": "<your-username>",
+    "password": "<your_password>"
+  },
+  {
+    "name": "Switch-B",
+    "ip": "<your_ip>",
+    "username": "<your-username>",
+    "password": "<your_password>"
+  }
+]
