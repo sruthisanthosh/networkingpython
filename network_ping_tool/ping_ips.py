@@ -1,20 +1,20 @@
-import subprocess;
+import subprocess
 
 with open('network_ping_tool/ip_list.txt') as file:
-    ip_list= [ line.strip() for line in file ];
+    ip_list= [ line.strip() for line in file ]
 
-print(ip_list);
+print(ip_list)
 
 with open('network_ping_tool/ping_log','w') as log:
     for ip in ip_list:
-        result = subprocess.run(['ping','-c','3',ip]);
-        print("--------------");
-        print(result);
+        result = subprocess.run(['ping','-c','3',ip])
+        print("--------------")
+        print(result)
         if result.returncode == 0:
-            print("Ping success!!");
+            print("Ping success!!")
         else:
             print("Ping unsuccessful!!!") 
-        log.write(f"{ip} has status {result.returncode} \n");
+        log.write(f"{ip} has status {result.returncode} \n")
 
 
 #Output:

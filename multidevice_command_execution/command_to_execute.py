@@ -1,1 +1,1 @@
-command_list=['uptime','ls -l','date'];
+command_list=['uptime','ls -l','date']
