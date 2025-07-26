@@ -1,6 +1,6 @@
 import re
-#String Operations: Strip, Split, Slice, Regex
-
+#String Operations: Strip, Split, Slice, Regex 
+ 
 #strip
 line = "   Interface Gi0/1 is up     \n"
 print(line.strip())
