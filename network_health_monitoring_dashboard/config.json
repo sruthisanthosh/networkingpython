@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Router-A",
+    "ip": "127.0.0.1",
+    "username": "sruthisanthosh",
+    "password": "Pass@mac2025"
+  },
+  {
+    "name": "Switch-B",
+    "ip": "127.0.0.1",
+    "username": "sruthisanthosh",
+    "password": "Pass@mac2025"
+  }
+]
