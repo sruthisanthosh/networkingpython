@@ -7,7 +7,7 @@ with open('network_health_monitoring_dashboard/config.json') as file:
     devices = json.load(file)
 
 with open('network_health_monitoring_dashboard/device_health.json', 'w') as health_monitor_file:
-    device_list = []
+    device_health_list = []
 
     for device in devices:
         hostname = device['name']
@@ -51,7 +51,7 @@ with open('network_health_monitoring_dashboard/device_health.json', 'w') as heal
             device_info["ip"] = ip
             device_info["timestamp"] = str(timestamp)
 
-            device_list.append(device_info)
+            device_health_list.append(device_info)
             stdout.channel.close()
 
         except Exception as e:
@@ -60,4 +60,4 @@ with open('network_health_monitoring_dashboard/device_health.json', 'w') as heal
         finally:
             client.close()
 
-    json.dump(device_list, health_monitor_file, indent=2)
+    json.dump(device_health_list, health_monitor_file, indent=2)
