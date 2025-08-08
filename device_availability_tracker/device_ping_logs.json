@@ -1,0 +1,26 @@
+[
+  {
+    "Hostname": "Router-A",
+    "IP": "127.0.0.1",
+    "Status": "Reachable",
+    "Timestamp": "2025-08-08 20:51:06.547645"
+  },
+  {
+    "Hostname": "Switch-A",
+    "IP": "8.8.8.8",
+    "Status": "Reachable",
+    "Timestamp": "2025-08-08 20:51:11.565317"
+  },
+  {
+    "Hostname": "Router-B",
+    "IP": "4.4.4.4",
+    "Status": "Unreachable",
+    "Timestamp": "2025-08-08 20:51:27.587710"
+  },
+  {
+    "Hostname": "Switch-B",
+    "IP": "1.2.3.4",
+    "Status": "Unreachable",
+    "Timestamp": "2025-08-08 20:51:43.603776"
+  }
+]
