@@ -1,0 +1,15 @@
+name: Trigger Jenkins Job
+
+on:
+  push:
+    paths:
+      - '**/*.bin'  # Trigger on changes to any .bin file
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Jenkins Job
+        run: |
+          curl -X POST "http://localhost:8080/job/Test_Project/build" \
+          --user "admin:8b9a4653af6f4a88a4b62d3debd71629"  
