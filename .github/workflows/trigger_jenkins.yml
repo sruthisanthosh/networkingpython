@@ -12,4 +12,4 @@ jobs:
       - name: Trigger Jenkins Job
         run: |
           curl -X POST "http://localhost:8080/job/Test_Project/build" \
-          --user "admin:8b9a4653af6f4a88a4b62d3debd71629"  
+          --user "admin:110266c9070400210b45cd5dfaa16706bf"  
