@@ -3,7 +3,7 @@ name: Trigger Jenkins Job
 on:
   push:
     paths:
-      - 'networkingpython/string_operations/*.bin'  
+      - 'string_operations/*.bin'  
 
 jobs:
   trigger:
