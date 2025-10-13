@@ -12,4 +12,5 @@ jobs:
       - name: Trigger Jenkins Job
         run: |
           curl -X POST "http://localhost:8080/job/Test_Project/build" \
+          -H "Jenkins-Crumb:1bcfaac6223deca227ca6236abd811b69c86bc18b33eff46b5a629daf3f77df4" \
           --user "admin:110266c9070400210b45cd5dfaa16706bf"  
