@@ -12,5 +12,5 @@ jobs:
       - name: Trigger Jenkins Job
         run: |
           curl -4 -v -X POST "https://unlenient-inger-wastingly.ngrok-free.dev/job/Test_Project/build" \
-          -H "Jenkins-Crumb:1bcfaac6223deca227ca6236abd811b69c86bc18b33eff46b5a629daf3f77df4" \
-          --user "admin:110266c9070400210b45cd5dfaa16706bf"
+          -H "Jenkins-Crumb:6d1791d5fa594ce6f75545e72ac4d8587f98b86d73cec82fe6da08a2d4920e83" \
+          --user "sruthi:11e18693dab703e99a9c8c421599660885"
